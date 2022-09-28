@@ -28,7 +28,7 @@ homepage: ''
 interfaces:
   - type: web
     name: publicUrl
-    path: /
+    path: /dist
     prefix: '*'
     port: BLOCKLET_PORT
     protocol: tcp
