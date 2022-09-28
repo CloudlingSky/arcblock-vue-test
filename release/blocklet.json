@@ -1,0 +1,68 @@
+{
+  "name": "arcblock-vue-test",
+  "version": "1.0.0",
+  "author": {
+    "name": "Arcblock"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:CloudlingSky/arcblock-vue-test.git"
+  },
+  "main": ".",
+  "license": "MIT",
+  "files": [
+    "logo.png",
+    "blocklet.md",
+    "README.md",
+    "dist"
+  ],
+  "title": "arcblock vue test",
+  "keywords": [
+    "static",
+    "demo",
+    "vue"
+  ],
+  "description": "arcblock vue test.",
+  "group": "static",
+  "specVersion": "1.2.1",
+  "did": "z8iZjejYpy7TeJbTq6oXLbVgXemAMbpqwM17Q",
+  "community": "",
+  "documentation": "",
+  "homepage": "",
+  "interfaces": [
+    {
+      "type": "web",
+      "name": "publicUrl",
+      "path": "/dist",
+      "prefix": "*",
+      "port": "BLOCKLET_PORT",
+      "protocol": "tcp"
+    }
+  ],
+  "environments": [],
+  "screenshots": [],
+  "scripts": {},
+  "timeout": {
+    "start": 10
+  },
+  "requirements": {
+    "abtnode": ">=1.1.0",
+    "os": "*",
+    "cpu": "*"
+  },
+  "payment": {
+    "price": [],
+    "share": []
+  },
+  "children": [],
+  "capabilities": {
+    "clusterMode": false
+  },
+  "gitHash": "0209ad444ca910384ba80f1fcd9857846a1fa0ac",
+  "path": "/static/minimalist-html-demo",
+  "nftFactory": "",
+  "dist": {
+    "tarball": "minimalist-html-demo-1.0.15.tgz",
+    "integrity": "sha512-lX0CuzeoyV+ScfOGN+lJ9W1F7aTHp5r8vwv9Z7kxOeqRahNTE9jJ75mQ3SlViQaF8xApRAUmPU10RKy/LbCVqw=="
+  }
+}

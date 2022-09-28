@@ -3,7 +3,7 @@ version: 1.0.15
 main: .
 repository:
   type: git
-  url: 'git+ssh://git@github.com/blocklet/minimalist-html-demo.git'
+  url: '+git@github.com:CloudlingSky/arcblock-vue-test.git'
 author:
   name: Arcblock
 license: MIT
