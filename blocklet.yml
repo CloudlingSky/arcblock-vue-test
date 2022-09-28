@@ -1,5 +1,5 @@
-name: minimalist-html-demo
-version: 1.0.15
+name: arcblock-vue-test
+version: 1.0.0
 main: .
 repository:
   type: git
