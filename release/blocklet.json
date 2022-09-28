@@ -1,28 +1,27 @@
 {
-  "name": "arcblock-vue-test",
-  "version": "1.0.0",
+  "name": "minimalist-html-demo",
+  "version": "1.0.15",
   "author": {
     "name": "Arcblock"
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:CloudlingSky/arcblock-vue-test.git"
+    "url": "git+ssh://git@github.com/blocklet/minimalist-html-demo.git"
   },
   "main": ".",
   "license": "MIT",
   "files": [
-    "logo.png",
     "blocklet.md",
     "README.md",
-    "dist"
+    "index.html"
   ],
-  "title": "arcblock vue test",
+  "title": "Simple HTML Demo",
   "keywords": [
     "static",
     "demo",
-    "vue"
+    "html"
   ],
-  "description": "arcblock vue test.",
+  "description": "A minimalist Blocklet demo with plain HTML. It's simple a web page.",
   "group": "static",
   "specVersion": "1.2.1",
   "did": "z8iZjejYpy7TeJbTq6oXLbVgXemAMbpqwM17Q",
@@ -33,7 +32,7 @@
     {
       "type": "web",
       "name": "publicUrl",
-      "path": "/dist",
+      "path": "/",
       "prefix": "*",
       "port": "BLOCKLET_PORT",
       "protocol": "tcp"
