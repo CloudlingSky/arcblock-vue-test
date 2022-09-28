@@ -1,0 +1,49 @@
+name: minimalist-html-demo
+version: 1.0.15
+main: .
+repository:
+  type: git
+  url: 'git+ssh://git@github.com/blocklet/minimalist-html-demo.git'
+author:
+  name: Arcblock
+license: MIT
+logo: logo.png # 应用 logo 文件
+files:
+  - logo.png
+  - blocklet.md
+  - README.md
+  - dist
+title: A test demo
+keywords:
+  - static
+  - demo
+  - html
+description: A test demo.
+group: static
+specVersion: 1.2.1
+did: z8iZjejYpy7TeJbTq6oXLbVgXemAMbpqwM17Q
+community: ''
+documentation: ''
+homepage: ''
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: tcp
+environments: []
+screenshots: []
+scripts: {}
+timeout:
+  start: 10
+requirements:
+  abtnode: '>=1.1.0'
+  os: '*'
+  cpu: '*'
+payment:
+  price: []
+  share: []
+children: []
+capabilities:
+  clusterMode: false

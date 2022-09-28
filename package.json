@@ -1,0 +1,36 @@
+{
+  "name": "minimalist-html-demo",
+  "version": "1.0.15",
+  "main": ".",
+  "repository": "git@github.com:blocklet/minimalist-html-demo.git",
+  "author": "Arcblock",
+  "license": "MIT",
+  "files": [
+    "index.html"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "clean": "rm -rf .blocklet",
+    "bundle": "npm run clean && blocklet bundle --create-release",
+    "deploy": "npm run bundle && blocklet deploy .blocklet/bundle",
+    "build": "vue-cli-service build"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "babel-plugin-component": "^1.1.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "axios": "^0.27.2",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.8",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1"
+  }
+}
